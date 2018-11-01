@@ -17,10 +17,16 @@
 .wrap-cover {
   flex: 1;
   color: white;
+  height: 400px;
 }
 .img {
   width: 100%;
   height: 100%;
   display: block;
   object-fit: cover;
+}
+@media (max-width:600px) {
+  .flex-grid {
+    flex-direction: column;
+  }
 }
