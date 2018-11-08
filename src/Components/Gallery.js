@@ -13,14 +13,14 @@ import '../css/MovieCovers.css';
 const MovieCovers = props =>
   <div>
     <div className="flex-grid">
-      <Cover title="First Man" image={ man }/>
-      <Cover title="Paddington" image={ paddington }/>
-      <Cover title="Nutcracker" image={ nutcracker }/>
+      <Cover title="First Man" image={ man } id="First-Man"/>
+      <Cover title="Paddington" image={ paddington } id="Paddington"/>
+      <Cover title="Nutcracker" image={ nutcracker } id="Nutcracker"/>
     </div>
     <div className="flex-grid">
-      <Cover title="Blade Runner" image={ runner }/>
-      <Cover title="Thor Ragnarok" image={ thor }/>
-      <Cover title="Wonder Woman" image={ wonder }/>
+      <Cover title="Blade Runner" image={ runner } id="Blade-Runner"/>
+      <Cover title="Thor Ragnarok" image={ thor } id="Thor-Ragnarok"/>
+      <Cover title="Wonder Woman" image={ wonder } id="Wonder-Woman"/>
     </div>
   </div>
 
