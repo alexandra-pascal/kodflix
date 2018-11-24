@@ -1,27 +1,17 @@
-import React from 'react'
-import man from '../img/man.jpg';
-import paddington from '../img/paddington.jpg';
-import nutcracker from '../img/nutcracker.jpg';
-import runner from '../img/runner.jpg';
-import thor from '../img/thor.jpg';
-import wonder from '../img/wonder.jpg';
-
+import React from 'react';
+import Covers from './Covers';
 import Cover from './Cover';
-
 import '../css/Gallery.css';
 
-const MovieCovers = props =>
+const Gallery = () =>
   <div>
     <div className="background">
-    <div className="flex-grid">
-      <Cover title="First Man" image={ man } id="First-Man"/>
-      <Cover title="Paddington" image={ paddington } id="Paddington"/>
-      <Cover title="Nutcracker" image={ nutcracker } id="Nutcracker"/>
-      <Cover title="Blade Runner" image={ runner } id="Blade-Runner"/>
-      <Cover title="Thor Ragnarok" image={ thor } id="Thor-Ragnarok"/>
-      <Cover title="Wonder Woman" image={ wonder } id="Wonder-Woman"/>
+      <div className="flex-grid">
+      {
+        Covers.map((cover, index) => <Cover key={index} id={cover.id} title={cover.title} image={cover.image}></Cover>)
+      }
     </div>
   </div>
   </div>
 
-export default MovieCovers;
+export default Gallery;
