@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import '../css/details.css';
 
-class Details extends Component {
+export default class Details extends React.Component {
   constructor() {
     super();
-    this.state = {message: "Hello, this will be the details page for each Movie and TV Show"}
+    this.state = {
+      message: "Hello, this will be the details page for each Movie and TV Show"
+    }
   }
 
   componentDidMount() {
@@ -23,4 +25,3 @@ class Details extends Component {
     )
   }
 }
-export default Details;
