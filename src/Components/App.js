@@ -1,19 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Gallery from './Gallery';
 import Details from './Details';
 
-class App extends Component {
+export default class App extends React.Component {
   render() {
-    return (
+    return(
       <Router>
         <div className="App">
           <Route path="/" exact component={ Gallery }></Route>
-          <Route path="/details" exact component={ Details }></Route>
-        </div>
+           <Route path='/:coverId' component={Details} />
+         </div>
       </Router>
-    );
+    )
   }
 }
-
-export default App;
