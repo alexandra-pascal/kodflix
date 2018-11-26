@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../css/details.css';
 
 export default class Details extends React.Component {
