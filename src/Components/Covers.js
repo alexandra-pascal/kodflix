@@ -5,7 +5,7 @@ import runner from '../img/runner.jpg';
 import thor from '../img/thor.jpg';
 import wonder from '../img/wonder.jpg';
 
-const Covers =[
+const Covers = [
   {id: 'First-Man', title: 'First-Man', image: man},
   {id: 'Paddington', title: 'Paddington', image: paddington},
   {id: 'Nutcracker', title: 'Nutcracker', image: nutcracker},
