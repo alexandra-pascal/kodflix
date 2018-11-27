@@ -1,17 +1,17 @@
-import man from "../img/man.jpg";
-import paddington from "../img/paddington.jpg";
+import harry from "../img/harry.jpg";
+import batman from "../img/batman.jpg";
 import nutcracker from "../img/nutcracker.jpg";
-import runner from "../img/runner.jpg";
-import thor from "../img/thor.jpg";
-import wonder from "../img/wonder.jpg";
+import train from "../img/train.jpg";
+import black from "../img/black.jpg";
+import spider from "../img/spider.jpg";
 
 let Covers = [
-  { id: "First-Man", title: "First-Man", image: man },
-  { id: "Paddington", title: "Paddington", image: paddington },
-  { id: "Nutcracker", title: "Nutcracker", image: nutcracker },
-  { id: "Blade-Runner", title: "Blade Runner", image: runner },
-  { id: "Thor-Ragnarok", title: "Thor Ragnarok", image: thor },
-  { id: "Wonder-Woman", title: "Wonder Woman", image: wonder }
+  { id: "harry-potter", title: "Harry Potter", image: harry },
+  { id: "batman", title: "Batman", image: batman },
+  { id: "nutcracker", title: "Nutcracker", image: nutcracker },
+  { id: "how-to-train-your-dragon", title: "train", image: train },
+  { id: "black-panther", title: "Black Panther", image: black },
+  { id: "spider-man", title: "Spider Man", image: spider }
 ];
 
 export default Covers;
