@@ -17,8 +17,17 @@ export default class Details extends React.Component {
   }
 
   render() {
+    let cover = this.state.cover;
     return this.state.cover ? (
-      <h1>{this.state.cover.title}</h1>
+      <div className="details">
+        <div className="details-title">{cover.title}</div>
+        <div className="details-content">
+          <p className="details-content-text">{cover.synopsis}</p>
+          <div className="details-content-cover">
+            <img src={cover.image} alt={cover.title} className="cover-image" />
+          </div>
+        </div>
+      </div>
     ) : (
       <Redirect to="/not-found" />
     );

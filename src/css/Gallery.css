@@ -15,7 +15,7 @@
   position: relative;
 }
 .image {
-  width:100%;
+  width: 100%;
   display: block;
 }
 h2 {
@@ -28,11 +28,9 @@ h2 {
   padding: 3em 0;
   color: white;
   background: rgba(0, 0, 0, 0.8);
-  background-image: linear-gradient( rgba(255,0,0,0), rgba(210,122,36,1));
+  background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(210, 122, 36, 1));
   transition: all 0.5s;
 }
-.wrap-cover:hover h2{
+.wrap-cover:hover h2 {
   opacity: 1;
-}
-@media (max-width:600px) {
 }
