@@ -1,9 +1,9 @@
-import harry from "../img/harry.jpg";
-import batman from "../img/batman.jpg";
-import nutcracker from "../img/nutcracker.jpg";
-import train from "../img/train.jpg";
-import black from "../img/black.jpg";
-import spider from "../img/spider.jpg";
+import harry from "./../img/harry.jpg";
+import batman from "./../img/batman.jpg";
+import nutcracker from "./../img/nutcracker.jpg";
+import train from "./../img/train.jpg";
+import black from "./../img/black.jpg";
+import spider from "./../img/spider.jpg";
 
 let Covers = [
   {
