@@ -17,14 +17,14 @@ export default class Details extends React.Component {
   }
 
   render() {
-    let cover = this.state.cover;
+    let cover3 = this.state.cover;
     return this.state.cover ? (
       <div className="details">
-        <div className="details-title">{cover.title}</div>
+        <div className="details-title">{cover3.title}</div>
         <div className="details-content">
-          <p className="details-content-text">{cover.synopsis}</p>
+          <p className="details-content-text">{cover3.synopsis}</p>
           <div className="details-content-cover">
-            <img src={cover.image} alt={cover.title} className="cover-image" />
+            <img src={cover3.image} alt={cover3.title} className="cover-image" />
           </div>
         </div>
       </div>

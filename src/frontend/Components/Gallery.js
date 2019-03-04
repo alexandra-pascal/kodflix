@@ -10,9 +10,9 @@ const Gallery = () => (
         {Covers.map((cover, index) => (
           <Cover
             key={index}
-            id={cover.id}
-            title={cover.title}
-            image={cover.image}
+            id2={cover.id}
+            title2={cover.title}
+            image2={cover.image}
           />
         ))}
       </div>
